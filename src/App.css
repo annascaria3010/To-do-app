@@ -1,0 +1,66 @@
+.App{
+  background-color:  chocolate ;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 700px;
+  padding-left: 500px;
+  padding-right: 700px;
+  position: fixed;
+  padding-top: 5rem;
+}
+
+.TodoWrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 25px;
+  background:  rgb(252, 251, 251);
+  margin-top: 25px;
+  width: 500px;
+ 
+}
+
+.TodoForm{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+
+.todo-input::placeholder{
+  display: flex;
+  justify-content: center;
+  color: #0b0b0b;
+  padding: 0.55rem 1rem;
+  background:  chocolate;
+}
+
+.todo-btn{
+  background: chocolate;
+  color: #040000;
+  border: none;
+  padding: 0.55rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:  chocolate;
+  color: #040404;
+  padding: 0.55rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.fa-trash{
+  margin-left: 0.75rem;
+}
+
+.completed{
+  color: #eb8908;
+  text-decoration: line-through;
+}
